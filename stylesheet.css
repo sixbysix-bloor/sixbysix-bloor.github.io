@@ -408,6 +408,11 @@ body {
   color: #000000;
 }
 
+.text-container a {
+  color: #000000;
+  text-decoration: none;
+}
+
 .music-table {
   height: 100%;
   width: 100%;
