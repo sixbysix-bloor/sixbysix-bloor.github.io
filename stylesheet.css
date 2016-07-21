@@ -86,7 +86,7 @@ body {
 	margin-bottom: 32px;
 	background-color: rgba(0,0,0,1);
 	font-family: 'Alconica';
-	font-size: 1.4em;
+	font-size: 1.3em;
 	float: left;
 }
 
@@ -99,14 +99,10 @@ body {
 	display: block;
 }
 
-/*.nav-bar a {
-  margin-bottom: -10px;
-}*/
-
 .nav1 {
   background-color: #362713;
   height: 32px;
-  width: 16%;
+  width: 14%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -115,7 +111,7 @@ body {
 .nav2 {
   background-color: #7F5C2E;
   height: 32px;
-  width: 16%;
+  width: 14%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -124,7 +120,7 @@ body {
 .nav3 {
   background-color: #FFB85B;
   height: 32px;
-  width: 16%;
+  width: 14%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -133,7 +129,7 @@ body {
 .nav4 {
   background-color: #402E17;
   height: 32px;
-  width: 16%;
+  width: 14%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -142,9 +138,18 @@ body {
 .nav5 {
   background-color: #E5A652;
   height: 32px;
-  width: 16%;
+  width: 14%;
   float: left;
 	color: #FFFFFF;
+  margin: 0 4px 0 -4px;
+}
+
+.nav6 {
+  background-color: #362713;
+  height: 32px;
+  width: 16%;
+  float: left;
+  color: #FFFFFF;
   margin: 0 4px 0 -4px;
 }
 
@@ -203,6 +208,17 @@ body {
   text-shadow: 1px 1px 1px #DDDDDD;
 }
 
+.nav6.active {
+  background-color: #362713;
+  height: 32px;
+  width: 16%;
+  float: left;
+  color: #000000;
+  margin: 0 4px 0 -4px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #DDDDDD;
+}
+
 .nav1:hover {
   color: #000000;
   float: left;
@@ -232,6 +248,13 @@ body {
 }
 
 .nav5:hover {
+  color: #000000;
+  float: left;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #DDDDDD;
+}
+
+.nav6:hover {
   color: #000000;
   float: left;
   text-decoration: none;
@@ -668,6 +691,31 @@ body {
   margin: 5%;
   border-right: 1px solid #000000;
   border-bottom: 1px solid #000000;
+}
+
+.col1-ld {
+  padding-left: 1.2em;
+  float: left;
+  width: 35%;
+  padding-bottom: 32px;
+  box-sizing: border-box;
+}
+
+.col2-ld {
+  float: left;
+  width: 65%;
+  padding-bottom: 32px;
+  box-sizing: border-box;
+}
+
+.col2-ld img {
+  float: left;
+  width: 90%;
+}
+
+.col2-ld p {
+  float: left;
+  width: 90%;
 }
 
 /*
