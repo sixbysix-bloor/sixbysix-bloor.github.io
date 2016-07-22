@@ -797,10 +797,10 @@ body {
 }
 
 .col2-ld h5 a:hover {
-  color: #AAAAAA;
-  text-shadow: 0 1px 0 #DDDDDD,
+  color: #F2AF58;
+/*  text-shadow: 0 1px 0 #DDDDDD,
                0 2px 0 #F2AF58,
-               0 3px 0 #F2AF58;
+               0 3px 0 #F2AF58;*/
 }
 
 .labels {
