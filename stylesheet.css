@@ -771,14 +771,14 @@ body {
 .col2-ld p {
   float: left;
   width: 90%;
-  color: #000000;
-  font-size: 1.2em;
+  color: #DDDDDD;
+  font-size: 1.3em;
   font-family: 'Alconica';
-  background-color: rgba(255,255,255,0.6);
-  border-top: 1px solid #FFFFFF;
+  background-color: rgba(255,255,255,0.0);
+  /*border-top: 1px solid #FFFFFF;
   border-left: 1px solid #FFFFFF;
   border-right: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000000;*/
   padding-left: 1.2em;
   box-sizing: border-box;
   padding: 6px;
