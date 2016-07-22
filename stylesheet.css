@@ -337,7 +337,7 @@ body {
 .show-table {
   color: #F2AF58;
   width: 100%;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
   background-color: rgba(0,0,0,0);
   font-family: 'Alconica';
   font-size: 1.5em;
@@ -768,11 +768,6 @@ body {
   box-sizing: border-box;
 }
 
-/*.col2-ld img {
-  float: left;
-  width: 90%;
-}*/
-
 .col2-ld p {
   float: left;
   width: 90%;
@@ -823,19 +818,22 @@ body {
 }
 
 input {
+  font-family: Arial;
+  color: rgba(20,20,20,1);
   padding: 10px;
   border: 1px solid #E5E5E5;
   margin-bottom: 20px;
   width: 400px;
   box-shadow: rgba(0,0,0,0.1);
-  font-family: Arial;
-  color: rgba(20,20,20,1);
   box-shadow: rgba(0,0,0,0.1) 0px 0px 0px;
   -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 0px;
   -webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 0px;
 }
 
 textarea {
+  font-family: Arial;
+  font-size: 13px;
+  color: rgba(20,20,20,1);
   padding: 10px;
   border: 1px solid #E5E5E5;
   margin-bottom: 20px;
@@ -844,8 +842,6 @@ textarea {
   max-width: 400px;
   max-height: 200px;
   min-width: 400px;
-  font-family: Arial;
-  color: rgba(20,20,20,1);
   min-height: 200px;
   box-shadow: rgba(0,0,0,0.1) 0px 0px 0px;
   -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 0px;
@@ -853,7 +849,6 @@ textarea {
 }
 
 .g-recaptcha {
-  /*width: 422px;*/
   float:left;
   margin-bottom: 20px;
 }
@@ -876,6 +871,7 @@ textarea {
   border-radius: 4px;
   border: 1px solid #F2AF58;
   color: #F2AF58;
+  cursor: pointer;
 }
 
 /*
