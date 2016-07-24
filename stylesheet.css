@@ -101,7 +101,7 @@ body {
 }
 
 .nav-bar {
-	width: 100%;
+	width: 860px;
 	height: 32px;
 	margin: -3px 0 0 0;
 	float: left;
@@ -109,10 +109,19 @@ body {
 	display: block;
 }
 
+.nav-bar-2 {
+  width: 140px;
+  height: 32px;
+  margin: -3px 0 0 0;
+  float: right;
+  text-align: center;
+  display: block;
+}
+
 .nav1 {
   background-color: #362713;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -121,16 +130,16 @@ body {
 .nav2 {
   background-color: #7F5C2E;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
 }
 
 .nav3 {
-  background-color: #FFB85B;
+  background-color: #DA9C4B;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -139,7 +148,7 @@ body {
 .nav4 {
   background-color: #362713;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -148,7 +157,7 @@ body {
 .nav5 {
   background-color: #7F5C2E;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -157,7 +166,7 @@ body {
 .nav6 {
   background-color: #FFB85B;
   height: 32px;
-  width: 16%;
+  width: 18%;
   float: left;
   color: #FFFFFF;
   margin: 0 4px 0 -4px;
@@ -166,7 +175,7 @@ body {
 .nav1.active {
   background-color: #362713;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #000000;
   margin: 0 4px 0 -4px;
@@ -177,7 +186,7 @@ body {
 .nav2.active {
   background-color: #7F5C2E;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #000000;
   margin: 0 4px 0 -4px;
@@ -186,9 +195,9 @@ body {
 }
 
 .nav3.active {
-  background-color: #FFB85B;
+  background-color: #DA9C4B;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #000000;
   margin: 0 4px 0 -4px;
@@ -199,7 +208,7 @@ body {
 .nav4.active {
   background-color: #362713;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #000000;
   margin: 0 4px 0 -4px;
@@ -210,7 +219,7 @@ body {
 .nav5.active {
   background-color: #7F5C2E;
   height: 32px;
-  width: 14%;
+  width: 16%;
   float: left;
 	color: #000000;
   margin: 0 4px 0 -4px;
@@ -221,7 +230,7 @@ body {
 .nav6.active {
   background-color: #FFB85B;
   height: 32px;
-  width: 16%;
+  width: 18%;
   float: left;
   color: #000000;
   margin: 0 4px 0 -4px;
@@ -716,6 +725,11 @@ body {
   border-right: 1px solid #000000;
   border-bottom: 1px solid #000000;
   margin-bottom: 10px;
+  margin-top: 65px;
+}
+
+.col1-ld h3 {
+  color: #DDDDDD;
 }
 
 .col1-ld h4 {
