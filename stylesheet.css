@@ -723,6 +723,22 @@ body {
   border-bottom: 1px solid #000000;
 }
 
+#Malecon a {
+  float: left;
+  width: 100%;
+}
+
+#Malecon img {
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 15px;
+  margin-bottom: 5%;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
 .col1-ld {
   color: #DDDDDD;
   float: left;
