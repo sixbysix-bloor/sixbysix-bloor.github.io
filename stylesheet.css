@@ -119,7 +119,8 @@ body {
 }
 
 .nav1 {
-  background-color: #362713;
+  background-color: #382C14;
+  /*background-color: #362713;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -128,7 +129,8 @@ body {
 }
 
 .nav2 {
-  background-color: #7F5C2E;
+  background-color: #AD945E;
+  /*background-color: #7F5C2E;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -137,7 +139,8 @@ body {
 }
 
 .nav3 {
-  background-color: #DA9C4B;
+  background-color: #AD893D;
+  /*background-color: #DA9C4B;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -146,7 +149,8 @@ body {
 }
 
 .nav4 {
-  background-color: #362713;
+  background-color: #382C14;
+  /*background-color: #362713;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -155,7 +159,8 @@ body {
 }
 
 .nav5 {
-  background-color: #7F5C2E;
+  background-color: #AD945E;
+  /*background-color: #7F5C2E;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -164,16 +169,19 @@ body {
 }
 
 .nav6 {
-  background-color: #FFB85B;
+  background-color: #AD893D;
+  /*background-color: #FFB85B;*/
   height: 32px;
   width: 18%;
   float: left;
   color: #FFFFFF;
   margin: 0 4px 0 -4px;
+  border-radius: 0px 5px 0px 0px;
 }
 
 .nav1.active {
-  background-color: #362713;
+  background-color: #382C14;
+  /*background-color: #362713;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -184,7 +192,8 @@ body {
 }
 
 .nav2.active {
-  background-color: #7F5C2E;
+  background-color: #AD945E;
+  /*background-color: #7F5C2E;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -195,7 +204,8 @@ body {
 }
 
 .nav3.active {
-  background-color: #DA9C4B;
+  background-color: #AD893D;
+  /*background-color: #DA9C4B;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -206,7 +216,8 @@ body {
 }
 
 .nav4.active {
-  background-color: #362713;
+  background-color: #382C14;
+  /*background-color: #362713;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -217,7 +228,8 @@ body {
 }
 
 .nav5.active {
-  background-color: #7F5C2E;
+  background-color: #AD945E;
+  /*background-color: #7F5C2E;*/
   height: 32px;
   width: 16%;
   float: left;
@@ -228,7 +240,8 @@ body {
 }
 
 .nav6.active {
-  background-color: #FFB85B;
+  background-color: #AD893D;
+  /*background-color: #FFB85B;*/
   height: 32px;
   width: 18%;
   float: left;
@@ -236,6 +249,7 @@ body {
   margin: 0 4px 0 -4px;
   text-decoration: none;
   text-shadow: 1px 1px 1px #DDDDDD;
+  border-radius: 0px 5px 0px 0px;
 }
 
 .nav1:hover {
