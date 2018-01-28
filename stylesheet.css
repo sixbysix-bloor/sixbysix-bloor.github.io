@@ -567,6 +567,16 @@ body {
                0 3px 0 #F2AF58;
 }
 
+.event-text-container p a:hover {
+  /*text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb;*/
+  color: #6F4C1E;
+  text-shadow: 0 1px 0 #DDDDDD,
+               0 2px 0 #F2AF58,
+               0 3px 0 #000000;
+}
+
 .music-table {
   height: 100%;
   width: 100%;
@@ -830,6 +840,18 @@ body {
   text-shadow: 0 1px 0 #DDDDDD,
                0 2px 0 #F2AF58,
                0 3px 0 #F2AF58;
+}
+
+.event-text-container {
+  float: left;
+  width: 55%;
+  height: 300px;
+  font-family: 'Slabo 13px';
+  background-color: rgba(255,255,255,0.1);
+  border-top: 1px solid lavender;
+  border-left: 1px solid lavender;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
 .col2-ld {
