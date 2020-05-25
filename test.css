@@ -1,0 +1,45 @@
+.ld img:hover
+{
+    transition: all 0.2s ease 0s;
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #eee;
+}
+
+.ld .ld-square-image
+{
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.ld .ld-square-image:hover
+{
+    overflow: visible;
+    z-index:100;
+}
+
+.ld .ld-square-image:hover .inner-text
+{
+    z-index: 100;
+    transition: all 0.2s ease-in;
+}
+
+.inner-text
+{
+    position: absolute;
+    background: rgb(241, 241, 241);
+    width: 300px;
+    color: black;
+    text-align: left;
+    float: left;
+    transition: all 0.2s ease-in;
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #eee;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.inner-text h4, .inner-text h6
+{
+    font-family: 'Alconica';
+}

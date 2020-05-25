@@ -1,0 +1,516 @@
+*,html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.animation	
+{	
+    opacity: 0;	
+}
+
+header
+{
+    height: 112px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    color: white;
+}
+
+header li
+{
+    display: inline-block;
+    /* background: green; */
+    list-style: none;
+}
+
+header h1
+{
+    text-align: center;
+    margin-top: 60px;
+    height: 95px;
+    font-size: 72px;
+    font-family: 'Alconica';
+    /* font-family: 'Metamorphous'; */
+    color: #eee;
+}
+
+header .row
+{
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+header .row li a
+{
+    padding-right: 30px;
+    color: #eee;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+header .row li a:hover,header .row li a:focus
+{
+    text-decoration: none;
+    color: #F2AF58;
+}
+
+.background-image
+{
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(..//images/Wood-Grain-3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-line
+{
+    width: 120px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.carousel-inner
+{
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.slider, .slider .carousel-item
+{
+    height: auto;
+    width: auto;
+    color: white;
+    text-align: center;
+}
+
+.carousel-item section
+{
+    position: relative;
+    padding: 345px 0px;
+    text-align: center;
+}
+
+.gallery-container
+{
+    width: 100%;
+    margin-top: -65px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnails img:hover, #ld-widescreen img:hover
+{
+    -webkit-box-shadow: 0 0 15px #eee;
+    box-shadow: 0 0 15px #eee;
+}
+
+.thumbnails a
+{
+  float: left;
+  width: 14%;
+}
+  
+.thumbnails img
+{
+  float: left;
+  width: 90%;
+  margin: 5%;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.seven-three-text
+{
+    background-color: #bbb;
+    color: black;
+    border: 1px solid white;
+}
+
+.seven-three-text h5
+{
+    margin-top: 40px;
+    text-align: left;
+    font-family: 'Alconica';
+    color: rgb(160, 40, 40);
+}
+
+.seven-three-text h4
+{
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Alconica';
+}
+
+.seven-three-text p
+{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.news img
+{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    z-index: 1;
+}
+
+.shows .row .row
+{
+    background-color: rgba(34, 26, 16, 0.5);
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+.shows-date, .shows-venue
+{
+    margin: 5 0 5 0;
+    color: rgb(243, 146, 19);
+    font-family: 'Alconica';
+    text-align: left;
+}
+
+.shows-buttons
+{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12 0 0 0;
+}
+
+.info-button, .map-button
+{
+    font-size: 20px;
+    background-color: rgb(255, 177, 74);
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 8px;
+    padding: 12px 10px 12px 10px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    width: 100px;
+}
+  
+.info-button:hover, .map-button:hover
+{
+    background-color: #000;
+    color: rgb(243, 146, 19);
+    border: 1px solid rgb(243, 146, 19);
+    text-decoration: none;
+}
+
+.band-image img
+{
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+.bios li
+{
+    list-style: none;
+}
+
+.bios .outer-row
+{
+    margin-top: -40px;
+}
+
+.bios .band-bio
+{
+    background-color: rgba(34, 26, 16, 0.5);
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-radius: 2px;
+    text-align: left;
+    color: #F2AF58;
+}
+
+.bios .band-bio p
+{
+    margin: 0 0 25px 0;
+    font-size: 16px;
+}
+
+.bios .band-bio h2
+{
+    font-family: 'Alconica';
+}
+
+.bios .band-bio h4
+{
+    font-family: 'Alconica';
+    text-decoration: underline;
+}
+
+.bios .band-bio .col-sm-6
+{
+    float: left;
+    text-align: left;
+    text-decoration: none;
+}
+
+.music .container
+{
+    margin-top: -30px;
+}
+
+.music img
+{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    z-index: 1;
+}
+
+.music img:hover
+{
+    transition: all 0.2s ease 0s;
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #eee;
+}
+
+.music .square-image-music
+{
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.music .square-image-music:hover
+{
+    overflow: visible;
+    z-index:100;
+}
+
+.music .square-image-music:hover .inner-text
+{
+    z-index: 100;
+    transition: all 0.2s ease-in;
+}
+
+.inner-text
+{
+    position: absolute;
+    background: rgb(241, 241, 241);
+    width: 300px;
+    color: black;
+    text-align: left;
+    float: left;
+    transition: all 0.2s ease-in;
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #eee;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.inner-text h4, .inner-text h6
+{
+    font-family: 'Alconica';
+}
+
+.inner-text p
+{
+    font-family: 'Alconica';
+    color: #007bff;
+}
+
+.videos .link-list ul li
+{
+    list-style: none;
+    text-align: center;
+}
+
+.videos .link-list ul li button
+{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*input has OS specific font-family*/
+    color: #069;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(241, 241, 241);
+    font-size: 18;
+}
+
+.videos .link-list ul li button:hover
+{
+    color: rgb(243, 146, 19);
+    padding-top: -1px;
+    text-shadow: 0 1px 0 rgb(14, 14, 14),
+                 0 2px 0 rgb(43, 43, 43),
+                 0 2px 0 rgb(226, 226, 226),
+                 0 3px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 2px rgba(0,0,0,.3),
+                 0 2px 3px rgba(0,0,0,.2),
+                 0 3px 4px rgba(0,0,0,.25),
+                 0 4px 5px rgba(0,0,0,.2),
+                 0 5px 6px rgba(0,0,0,.15);
+}
+
+.videos .link-list ul li button:focus
+{
+    text-decoration: none;
+    outline: none;
+    color: rgb(243, 146, 19);
+}
+
+.videos .embed-video h2 a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50 0 0 0;
+    text-decoration: none;
+    color: #eee;
+    padding-bottom: 5px;
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #eee;
+    border-radius: 4px;
+}
+
+.videos .embed-video h2 a:hover
+{
+    transition: all 0.3s ease-in;
+    color: rgb(255, 177, 74);
+}
+
+.store .wide-box a
+{
+    color: rgb(255, 177, 74);
+    margin: 0 30px 0 30px;
+}
+
+.store .wide-box i
+{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    padding: 11px 0px 0 0;
+}
+
+.store .wide-box i:hover
+{
+    transition: all 0.2s ease-in;
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #eee;
+}
+
+.store .wide-box p
+{
+    color: #eee;
+    margin-top: 60px;
+    font-size: 20;
+}
+
+/* LD */
+.ld .row
+{
+    margin: 0 -200px 0 -200px;
+}
+
+.ld .ld-title
+{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin: -50px 0 0 0;
+}
+
+.ld .title-row
+{
+    margin: 10px -200px 0 -200px;
+}
+
+.ld .ld-square-image
+{
+    float: left;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.ld .ld-square-image img
+{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+}
+
+.ld .ld-square-image img:hover
+{
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #eee;
+}
+
+.ld-inner-text
+{
+    text-align: left;
+    margin-top: 20px;
+    display: block;
+    background-color: rgba(34, 26, 16, 0.5);
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 5px #eee;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+}
+
+.ld-inner-text-2
+{
+    display: block;
+    text-align: center;
+    background-color: rgba(34, 26, 16, 0.5);
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 5px #eee;
+    border-radius: 4px;
+    margin: 30 23;
+    width: 300px;
+    height: 100px;
+}
+
+.ld-inner-text-2 p, .ld-inner-text-2 h4
+{
+    padding-top: 25px;
+}
+
+.ld .ld-square-image img:hover
+{
+    -webkit-box-shadow: 0 0 10px #eee;
+    box-shadow: 0 0 10px #eee;
+}
+
+.ld-inner-text-2 h4
+{
+    font-family: 'Alconica';
+    margin: 0 10px 0 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.ld-inner-text-2 a
+{
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+.ld-inner-text-2 a:hover
+{
+    transition: all 0.2s ease-in;
+    color: rgb(255, 177, 74);
+}

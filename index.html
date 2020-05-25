@@ -1,81 +1,509 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Six by Six</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
-  <link href='https://fonts.googleapis.com/css?family=Metamorphous|Aclonica|Slabo+13px|Trade+Winds' rel='stylesheet' type='text/css'>
+    <title>Six By Six</title>
+    <!-- Six By Six CSS -->
+    <link href="css/style2.css" rel="stylesheet" type="text/css">
+    <!-- Font-Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Lightbox CSS -->
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css">
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="content">
-    <div class="header-title">
-      <p>Six</p><br>
-      <p id="by">by</p><br>
-      <p>Six</p>
-    </div>
-    <div class="header-logo">
-      <img src="images/guitar-rotation-30-reverse.jpg"/>
-      <img src="images/guitar-rotation-30.jpg"/>
-    </div> <!--End Header-->
+  
+  <div id="carouselIndicators" class="carousel slide">
+    <header>
+        <h1 class="animated bounceInDown">Six By Six</h1>
+        <div class="container">
+            <div class="row animated pulse">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-1"><li data-target="#carouselIndicators" data-slide-to="0" class="active"><a href="#news">News</a></li></div>
+                <div class="col-sm-1"><li data-target="#carouselIndicators" data-slide-to="1"><a href="#shows">Shows</a></li></div>
+                <div class="col-sm-1"><li data-target="#carouselIndicators" data-slide-to="2"><a href="#music">Music</a></li></div>
+                <div class="col-sm-1"><li data-target="#carouselIndicators" data-slide-to="3"><a href="#photos">Photos</a></li></div>
+                <div class="col-sm-1"><li data-target="#carouselIndicators" data-slide-to="4"><a href="#videos">Videos</a></li></div>
+                <div class="col-sm-1"><li data-target="#carouselIndicators" data-slide-to="5"><a href="#band">Bios</a></li></div>
+                <div class="col-sm-1"><li data-target="#carouselIndicators" data-slide-to="6"><a href="#store">Store</a></li></div>
+                <div class="col-sm-1"><li data-target="#carouselIndicators" data-slide-to="7"><a href="#ld">Supergroup</a></li></div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        <div class="header-line animated pulse"></div>
+    </header>
 
-    <div id="navigation-header">
-      <table width="100%">
-        <tbody>
-          <tr>
-            <td>
-              <div class="nav-bar">
-                <a class="nav1 active" href="index.html">Home</a>
-                <a class="nav2" href="shows.html">Shows</a>
-                <a class="nav3" href="music.html">Music</a>
-                <a class="nav4" href="bios.html">Biographies</a>
-                <a class="nav5" href="photo-gallery.html">Photo Gallery</a>
-                <a class="nav6" href="lucid-diversity.html">Lucid Diversity</a>
+    <section class="background-image">
+      <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <section class="news">
+                <div class="container">
+                    <div class="row animated bounceInLeft">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 text-center">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-4 square-image-news">
+                                    <img src="images/6X6Final-CD-Cover-Square.jpg">
+                                </div>
+                                <div class="col-sm-8 seven-three-text">
+                                    <h5>May 15, 2020</h5>
+                                    <h4>Our music is now available for purchase!</h4>
+                                    <p>Digital copies of our latest album, <i>Six By Six</i>, are available for purchase through Amazon, Apple Music, and more.
+                                        <br><a href="https://www.amazon.com/gp/product/B0813XM28G">Click this link</a> to check it out!
+                                    </p>
+                                </div>
+                            </div>
+                            <br>
+                            <!-- Row 2 -->
+                            <div class="row">
+                                <div class="col-sm-4 square-image-news">
+                                    <img src="images/live-at-waves-jan2020-card.png">
+                                </div>
+                                <div class="col-sm-8 seven-three-text">
+                                    <h5>May 15, 2020</h5>
+                                    <h4>New site goes live!</h4>
+                                    <p>Six by Six is proud to present our brand new website!
+                                        <br>Be sure to check out our videos section, where you can listen to our studio recordings and live performances.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </section>
+          </div>
+
+          <div class="carousel-item">
+            <section class="shows">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <!-- Water Valley Celtic Folk Festival -->
+                            <div class="row">
+                                <div class="col-sm-3 shows-date">
+                                    <h3>June 20, 2020</h3>
+                                    <h5>TBA</h5>
+                                </div>
+                                <div class="col-sm-5 shows-venue">
+                                    <h3>Water Valley Celtic Folk Festival</h3>
+                                    <h5>Water Valley, AB</h5>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="shows-buttons">
+                                        <a class="info-button" href="http://www.watervalleycelticfestival.org/" target="_blank">Venue</a>
+                                        <a class="map-button" href="https://www.google.com/maps/dir//Water+Valley,+AB+T0M+2E1/@51.5037031,-114.6194497,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x5376b39d043c83f7:0x695e2f75b93f1025!2m2!1d-114.610695!2d51.503704!3e0" target="_blank">Map</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <!-- Intercare Brentwood Care Centre -->
+                            <div class="row">
+                                <div class="col-sm-3 shows-date">
+                                    <h3>July 10, 2020</h3>
+                                    <h5>2:00pm</h5>
+                                </div>
+                                <div class="col-sm-5 shows-venue">
+                                    <h3>Brentwood Care Centre</h3>
+                                    <h5>Calgary, AB</h5>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="shows-buttons">
+                                        <a class="info-button" href="https://www.intercarealberta.com/brentwood-care-centre/" target="_blank">Venue</a>
+                                        <a class="map-button" href="https://www.google.com/maps/place/Intercare+Brentwood+Care+Centre/@51.0676429,-114.1273257,17z/data=!3m1!4b1!4m5!3m4!1s0x53716fa5eadfd909:0x5548d9259f9e688c!8m2!3d51.0676429!4d-114.125137" target="_blank">Map</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <!-- Kamp Kiwanis (Apple Festival) -->
+                            <div class="row">
+                                <div class="col-sm-3 shows-date">
+                                    <h3>September 27, 2020</h3>
+                                    <h5>3:00pm</h5>
+                                </div>
+                                <div class="col-sm-5 shows-venue">
+                                    <h3>Kiwanis Apple Festival</h3>
+                                    <h5>Calgary, AB</h5>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="shows-buttons">
+                                        <a class="info-button" href="https://www.kiwanisapplefestival.org/" target="_blank">Venue</a>
+                                        <a class="map-button" href="https://www.google.com/maps/dir//kamp+kiwanis+alberta/@51.0253097,-114.5054105,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x53716b414bdc8b8b:0x2c7d101395f1c421!2m2!1d-114.4703913!2d51.0252609" target="_blank">Map</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+
+            <div class="carousel-item">
+                <section class="music">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                          <!-- Row 1 -->
+                          <div class="row">
+                              <div class="col-sm-4 square-image-music">
+                                  <img src="images/live-at-waves-jan2020-card.png">
+                                  <div class="inner-text">
+                                      <h4>Live at Waves Coffee House - Shelbourne</h4>
+                                      <h6>January 2020</h6>
+                                      <p>Listen with: 
+                                        <a href="https://www.youtube.com/watch?v=BBqfAne502Q&list=PL3T7PU8Wbe3gRDaxxz31-aMVqDf1RnzzT" target="_blank"><i class="fab fa-youtube fa-1x"></i></a>
+                                      </p>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4 square-image-music">
+                                  <img src="images/6X6Final-CD-Cover-Square.jpg">
+                                  <div class="inner-text">
+                                      <h4>Six By Six</h4>
+                                      <h6>March 2018</h6>
+                                      <p>Available  on:  
+                                        <a href="https://www.amazon.com/gp/product/B0813XM28G/ref=dm_ws_sp_ps_dp" target="_blank"><i class="fab fa-amazon fa-1x"></i></a>
+                                        <a href="https://open.spotify.com/artist/65HMSzXoaK59ItNEIq6XyO" target="_blank"><i class="fab fa-spotify fa-1x"></i></a>
+                                        <a href="https://music.apple.com/ca/album/six-by-six/1486611698" target="_blank"><i class="fab fa-apple fa-1x"></i></a>
+                                      </p>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4 square-image-music">
+                                <img src="images/sixbysix-2016.png">
+                                <div class="inner-text">
+                                    <h4>Live at Waves Coffee House - Shelbourne</h4>
+                                    <h6>June 2016</h6>
+                                    <p>Listen with: 
+                                        <a href="https://www.youtube.com/watch?v=XCG5RXa7zA0&list=PL3T7PU8Wbe3hX8bkPawk3QqccmPYMh9Jc" target="_blank"><i class="fab fa-youtube fa-1x"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                          <br>
+                          <!-- Row 2 -->
+                          <div class="row">
+                              <div class="col-sm-2"></div>
+                              <div class="col-sm-4 square-image-music">
+                                  <img src="images/brian-howe-2020.png">
+                                  <div class="inner-text">
+                                      <h4>Studio Recordings</h4>
+                                      <h6>March 2016</h6>
+                                      <p>Listen with: 
+                                        <a href="https://www.youtube.com/watch?v=rGdrIoJOHC4&list=PL3T7PU8Wbe3jGME0d4j99Y8JWOIkerJ_y" target="_blank"><i class="fab fa-youtube fa-1x"></i></a>
+                                      </p>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4 square-image-music">
+                                  <img src="images/carol-bloor-2020.png">
+                                  <div class="inner-text">
+                                      <h4>Singles</h4>
+                                      <h6>2015-2020</h6>
+                                      <p>Available  on: <a href="https://music.apple.com/ca/album/im-over-the-edge-single/1500860766" target="_blank"><i class="fab fa-apple fa-1x"></i></a></p>
+                                  </div>
+                              </div>
+                              <div class="col-sm-2"></div>
+                          </div>
+                        </div>
+                      <div class="col-md-1"></div>
+                    </div>
+                  </div>
+                </section>
               </div>
-            </td>
-            <!--<td>
-              <div class="nav-bar-2">
-                <img src="images/facebook-logo-dark.png"/>
-                <img src="images/YouTube-icon-dark.png"/>
-                <img src="images/email-icon-light.png"/>
-              </div>
-            </td>-->
-          </tr>
-        </tbody>
-      </table>
-    </div> <!--End Navigation Header-->
 
-    <img id="cover-photo" src="images/cover-photo.jpg"/>
-    <div class="text-container-large">
-      <p>
-      Named for the duo's six string guitars, Six by Six plays acoustic folk and bluegrass music from the 1960s forward.<br>
-      Their fingerstyle, flatpicking and songwriting weave together like a basket, filled with stories for the heart.
-      </p>
-    </div>
-    <!--<div class="transparent-space"></div>-->
+          <div class="carousel-item">
+            <section class="photos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 text-center">
+                            <div class="gallery-container">
+                                <div class="thumbnails">
+                                  <!-- Row 1 -->
+                                  <a href="images/gallery/ld-1-2019.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/ld-1-2019-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/ld-2-2019.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/ld-2-2019-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/ld-3-2019.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/ld-3-2019-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/trio-1-2020.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/trio-1-2020-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/ld-5-2019.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/ld-5-2019-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/ld-6-2019.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/ld-6-2019-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/landscape-3.jpg" data-lightbox="gallery" data-title="Six by Six">
+                                    <img src="images/gallery/landscape-3-thumb.jpg"/>
+                                  </a>
+                                  <!-- Row 2 -->
+                                  <a href="images/gallery/landscape-4.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/landscape-4-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/landscape-2-thumb.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/landscape-2-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/carol-2-2020.jpg" data-lightbox="gallery" data-title="Six by Six">
+                                    <img src="images/gallery/carol-2-2020-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/landscape-6-thumb.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/landscape-6-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/duo-6-thumb.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/duo-6-thumb.jpg"/>
+                                  </a>
+                                  <a name="landscape-7" href="images/gallery/landscape-7.jpg" data-lightbox="gallery" data-title="landscape-7 Bloor">
+                                    <img src="images/gallery/landscape-7-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/landscape-1-thumb.jpg" data-lightbox="gallery" data-title="Six by Six">
+                                    <img src="images/gallery/landscape-1-thumb.jpg"/>
+                                  </a>
+                                  <!--Row 3-->
+                                  <a name="fort-mcmurray-fire-beacon-hill" href="images/gallery/fort-mcmurray-fire-beacon-hill.jpg" data-lightbox="gallery" data-title="Fort McMurray Fire: Beacon Hill">
+                                    <img src="images/gallery/fort-mcmurray-fire-beacon-hill-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/duo-3-thumb.jpg" data-lightbox="gallery" data-title="Six by Six">
+                                    <img src="images/gallery/duo-3-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/duo-1-2020.jpg" data-lightbox="gallery" data-title="Fort McMurray Fire: Strength and Unity">
+                                    <img src="images/gallery/duo-1-2020-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/duo-2-2020.jpg" data-lightbox="gallery" data-title="Fort McMurray Fire: View from the city">
+                                    <img src="images/gallery/duo-2-2020-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/brian-1-2020.jpg" data-lightbox="gallery" data-title="Fort McMurray Fire: View from the city">
+                                    <img src="images/gallery/brian-1-2020-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/portrait-1.jpg" data-lightbox="gallery" data-title="Six by Six">
+                                    <img src="images/gallery/portrait-1-thumb.jpg"/>
+                                  </a>
+                                  <a href="images/gallery/ld-cake.jpg" data-lightbox="gallery" data-title="Six by Six">
+                                    <img src="images/gallery/ld-cake-thumb.jpg"/>
+                                  </a>
+                                </div> <!--End Thumbnails-->
+                                <!--A special thumbnail for the wide shot-->
+                                <div id="ld-widescreen">
+                                  <a name="ludic-diversity" href="images/gallery/ld-wide-shot.jpg" data-lightbox="gallery" data-title="Lucid Diversity">
+                                    <img src="images/gallery/ld-wide-shot-thumb.jpg"/>
+                                  </a>
+                                </div> <!--End Malecón-->
+                                </div> <!--End Gallery Container-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+          </div>
 
-    <div id="footer">
-        <a href="contact.html" target="_blank">Contact</a><br>
-        <a href="https://www.youtube.com/channel/UCxrOLUqm57RHECS9spjlFUQ" target="_blank">YouTube</a><br>
-        <a href="https://www.facebook.com/LucidDiversity/" target="_blank">Lucid Diversity</a>
-    </div> <!--End Footer-->
-  </div> <!--End Content-->
-  <script src="jquery.js"></script>
+          <div class="carousel-item">
+            <section class="videos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 text-center">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-4 link-list">
+                                    <ul>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/aPNyvntGSws'">Together We're Free</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/ffB4FE3P-AM'">Deanne</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/rGdrIoJOHC4'">Carolina</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/jX08_SGWMsA'">Silly Old Toad</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/fN-kxrk-1Us'">Wrong Direction</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/U344iixC-1I'">Cliquey Cliquey Blues</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/04_icWC9lp8'">People Like Us (Silvio's Song)</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/T8UQqGYoY0g'">Walk on the Water - live</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/DgQqLj_vwoA'">Together We're Free - live</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/qlOfBWQtGXM'">I'm Over the Edge - live</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/xwkAApx_hSA'">I'm at Your Door - live</button></li>
+                                        <li><button type="button" onclick="document.getElementById('video-iframe').src='https://www.youtube.com/embed/BBqfAne502Q'">Garden Song - live</button></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6 embed-video">
+                                    <iframe id="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/aPNyvntGSws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-sm-1"></div>
+                            </div>
+                            <br>
+                            <!-- Row 2 -->
+                            <div class="row">
+                                <div class="col-sm-4"></div>
+                                <div class="col-sm-4 embed-video">
+                                    <h2><a href="https://www.youtube.com/channel/UCxrOLUqm57RHECS9spjlFUQ" target="_blank">Check us out on YouTube!</a></h2>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          </div>
+
+          <div class="carousel-item">
+            <section class="bios">
+                <div class="container">
+                    <div class="row outer-row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 band-list">
+                            <!-- Brian Howe -->
+                            <div class="row">
+                                <div class="col-sm-3 band-image">
+                                    <img src="images/Brian-Howe.jpg"/>
+                                </div>
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-8 band-bio">
+                                    <h2>Brian Howe</h2>
+                                    <p>Brian Howe grew up in Saint John, NB.  He’s been a miner, a bar musician, an oil worker, computer trainer, and most recently,
+                                         a musician once again.  He’s lived in Lynn Lake and Churchill, MB, Saint John, NB, Fort McMurray and now Calgary.</p>
+                                    <h4>Original Songs</h4>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul>
+                                                <li>Fort McMurray Tickle</li>
+                                                <li>When I Call Up to Jesus</li>
+                                                <li>Talk About My Jesus Blues</li>
+                                                <li>Walk on the Water</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul>
+                                                <li>Rain</li>
+                                                <li>Deanne</li>
+                                                <li>Silly Old Toad</li>
+                                                <li>I'm Over the Edge (w/ Carol Bloor)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <!-- Carol Bloor -->
+                            <div class="row">
+                                <div class="col-sm-3 band-image">
+                                    <img src="images/Carol-Bloor.jpg"/>
+                                </div>
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-8 band-bio">
+                                    <h2>Carol Bloor</h2>
+                                    <p>Carol Bloor grew up in Saint John, NB, and Kingston, ON, playing classical guitar before coming to Calgary in 1979.
+                                          Music went on hold to pursue a career.  She’s been a geologist, an engineer, a banker, a dealmaker and now, once again, a musician.</p>
+                                        <h4>Original Songs</h4>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <ul>
+                                                    <li>Carolina</li>
+                                                    <li>Cliquey Cliquey Blues</li>
+                                                    <li>I See It in Your Eyes</li>
+                                                    <li>People Like Us</li>
+                                                    <li>I'm at Your Door</li>
+                                                    <li>Ride Along</li>
+                                                    <li>A Little Less Illegal (w/ Dave Bradt)</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <ul>
+                                                    <li>Wrong Direction</li>
+                                                    <li>Bluegrass Bonanza</li>
+                                                    <li>Together We’re Free</li>
+                                                    <li>Selling the Montney</li>
+                                                    <li>I'm Over the Edge (w/ Brian Howe)</li>
+                                                    <li>Living at the Cafe</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </section>
+          </div>            
+
+          <div class="carousel-item">
+            <section class="store">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 text-center">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12 wide-box">
+                                    <a href="https://music.apple.com/ca/album/six-by-six/1486611698" target="_blank"><i class="fab fa-apple fa-6x"></i></a>
+                                    <a href="https://www.amazon.com/gp/product/B0813XM28G/ref=dm_ws_sp_ps_dp" target="_blank"><i class="fab fa-amazon fa-6x"></i></a>
+                                    <!-- <a href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify fa-6x"></i></a> -->
+                                    <a href="https://open.spotify.com/artist/65HMSzXoaK59ItNEIq6XyO" target="_blank"><i class="fab fa-spotify fa-6x"></i></a>
+                                    <p>Our digital CDs are now available for sampling and purchase<br>
+                                         on Apple Music, Amazon, Spotify, and more!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </section>
+          </div>
+
+          <div class="carousel-item">
+            <section class="ld">
+                <div class="container">
+                    <!-- Title Card -->
+                    <div class="row animated bounceInRight title-row">
+                        <div class="col-xl-12">
+                            <img class="ld-title" src="images/lucid-diversity-gold.png" alt="Lucid">
+                        </div>
+                    </div>
+                    <div class="row animated bounceInRight">
+                        <div class="col-xl-3 ld-square-image">
+                            <img src="images/lucid-diversity-2019-square-300px.jpg" alt="Photo of Lucid Diversity">
+                            <div class="ld-inner-text-2">
+                                <h4>Listen here</h4>
+                                <a href="https://www.youtube.com/watch?v=UPOmAMLRcQ4&list=UUGFk4buM1mRd3_n2vwC4u0A" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="ld-inner-text">
+                                <h4>About the Band</h4>
+                                <p>We play all kinds of acoustic music: folk, country, celtic, bluegrass, traditional, blues, rock and pop.</p>
+                                <p>Dave Bradt enjoyed years of playing 3-finger and clawhammer banjo, then became a Dobro, enthusiast. Dave's latest love is the bass guitar.</p>
+                                <p>Brian Howe started playing guitar after hearing the Kingston Trio and got hooked on folk music. In the late 1960’s he played in a professional group out of Winnipeg called Maple Sugar. Now Brian just plays for the love of it.</p>
+                                <p>Brad Tomlinson first picked up the guitar at age 46 and now has G.A.S. (Guitar Acquisition Syndrome) with a few mandolins and other instruments also creeping into the house.</p>
+                                <p>Carol Bloor is a flatpicker and fingerstyle guitarist mining the wealth of folk and bluegrass from the 1960s forward.</p>
+                                <p>Suzi Martin joins us this year. A singer/songwriter and drummer since junior high school, she brings iconic beats to our favourite songs.</p>
+                                <p>Together, we are Lucid Diversity.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 ld-square-image">
+                            <img src="images/ld-cd-cover.png">
+                            <div class="ld-inner-text-2">
+                                <h4>Available on </h4>
+                                <a href="https://www.amazon.com/Lucid-Diversity/dp/B07ZYBGGM4/ref=sr_1_1" target="_blank"><i class="fab fa-amazon fa-3x"></i></a>
+                                <a href="https://open.spotify.com/artist/6CgMJP9xBG83FQ3VkJdPV0" target="_blank"><i class="fab fa-spotify fa-3x"></i></a>
+                                <a href="https://music.apple.com/ca/album/lucid-diversity/1486101510" target="_blank"><i class="fab fa-apple fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          </div>
+
+      </div>
+    </section>
+  </div>
+  <!-- <footer id="footer">
+      <p>Test</p>
+  </footer> -->
+  <script src="js/lightbox.min.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-  <!--<script src="script.js"></script>
-  <script type="text/javascript" language="Javascript">
-    function set_body_height() {
-      $('body').height($(window).height());
-    }
-    $(document).ready(function() {
-      $(window).bind('resize', set_body_height);
-      set_body_height();
-    });
-  </script>-->

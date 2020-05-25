@@ -1,0 +1,288 @@
+*,html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* body
+{
+    overflow-y: scroll;
+} */
+
+header
+{
+    height: 112px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    color: white;
+}
+
+header li
+{
+    display: inline-block;
+    list-style: none;
+}
+
+header h1
+{
+    text-align: center;
+    margin-top: 60px;
+    height: 95px;
+    font-size: 72px;
+    font-family: 'Alconica';
+    color: #eee
+}
+
+header .row
+{
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+}
+
+header .row li a
+{
+    padding-right: 30px;
+    color: #eee;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+header .row li a:hover,header .row li a:focus
+{
+    text-decoration: none;
+    color: #F2AF58;
+}
+
+.background-image
+{
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(..//images/Wood-Grain-3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-line
+{
+    width: 120px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.carousel-inner
+{
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.slider, .slider .carousel-item
+{
+    height: auto;
+    width: auto;
+    color: white;
+    text-align: center;
+}
+
+.carousel-item section
+{
+    position: relative;
+    padding: 345px 0px;
+    text-align: center;
+}
+
+.carousel-control-prev
+{
+    color: deepskyblue;
+}
+
+.carousel-control-next
+{
+    color: deepskyblue;
+}
+
+.square-image,.square-image-1
+{
+    background-color: deepskyblue;
+}
+
+.square-image-2
+{
+    background-color: green;
+}
+.venue-map,.square-image-3
+{
+    background-color: orange;
+}
+
+.square-image-4
+{
+    background-color: red;
+}
+
+.gallery-container {
+    border: 5px solid #000000;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.thumbnails a {
+  float: left;
+  width: 33%;
+}
+  
+.thumbnails img {
+  float: left;
+  width: 90%;
+  margin: 5%;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.band-bio {
+  background: green;
+}
+
+.wide-box {
+    background: green;
+}
+
+.wide-box-2 {
+    background: white;
+}
+
+.ld-image {
+    border: 1px solid white;
+    height: 300px;
+    width: 300px;
+    z-index: 9999;
+    position: absolute;
+}
+
+.ld-image:hover {
+    height: 600px;
+    width: inherit;
+    /* display: block; */
+    /* position: absolute; */
+    background-color: #eee;
+    color: black;
+    z-index: 9999;
+    transition: all 0.3s ease-in;
+}
+
+.ld-image:hover img {
+    float: left;
+}
+
+.ld-image p {
+    display: none;
+}
+
+.ld-image:hover p {
+    display: inline;
+    /* float: left;*/
+}
+
+.ld .row .ld-showtimes, .ld .row .ld-music {
+    background: blueviolet;
+}
+
+.ld .row .ld-col-space {
+    background: none;
+}
+
+.square-image-news
+{
+    /* background-color: yellow; */
+}
+
+.seven-three-text
+{
+    background-color: #bbb;
+    color: black;
+    border: 1px solid white;
+}
+
+.seven-three-text h5
+{
+    margin-top: 40px;
+    text-align: left;
+    font-family: 'Alconica';
+    color: rgb(160, 40, 40);
+}
+
+.seven-three-text h4
+{
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Alconica';
+}
+
+.seven-three-text p
+{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.news img
+{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    z-index: 1;
+}
+
+.shows .row .row
+{
+    background-color: rgba(34, 26, 16, 0.5);
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+.shows-date, .shows-venue
+{
+    margin: 5 0 5 0;
+    color: rgb(243, 146, 19);
+    font-family: 'Alconica';
+    text-align: left;
+}
+
+.shows-buttons
+{
+    float:right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12 0 0 0;
+}
+
+.info-button, .map-button {
+    font-size: 20px;
+    background-color: rgb(255, 177, 74);
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 8px;
+    padding: 12px 10px 12px 10px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    width: 100px;
+  }
+  
+  .info-button:hover, .map-button:hover {
+    background-color: #000;
+    color: rgb(243, 146, 19);
+    border: 1px solid rgb(243, 146, 19);
+    text-decoration: none;
+  }
+
+.band .row .band-list
+{
+    height: 100%;
+    overflow-y: scroll;
+}
