@@ -112,7 +112,7 @@ header .row li a:hover,header .row li a:focus
 .thumbnails a
 {
   float: left;
-  width: 14%;
+  width: 20%;
 }
   
 .thumbnails img
@@ -150,6 +150,21 @@ header .row li a:hover,header .row li a:focus
 {
     margin-top: 40px;
     text-align: left;
+}
+
+.seven-three-text p a i
+{
+    color: rgb(128, 32, 32);
+    margin: 20px 10px 0 10px;
+    text-align: center;
+}
+
+.seven-three-text p a i:hover
+{
+    color: rgb(248, 116, 116);
+    margin: 10px 10px 0 10px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
 }
 
 .news img
@@ -327,7 +342,19 @@ header .row li a:hover,header .row li a:focus
 .inner-text p
 {
     font-family: 'Alconica';
-    color: #007bff;
+    color: black;
+    font-size: 20px;
+}
+
+.inner-text p a i
+{
+    color: rgb(128, 32, 32);
+}
+
+.inner-text p a i:hover
+{
+    color: rgb(248, 116, 116);
+    transition: all 0.3s ease 0s;
 }
 
 .videos .link-list ul li
@@ -372,9 +399,8 @@ header .row li a:hover,header .row li a:focus
     color: rgb(243, 146, 19);
 }
 
-.videos .embed-video h2 a
+.videos .embed-video h2
 {
-    display: flex;
     justify-content: center;
     align-items: center;
     margin: 50 0 0 0;
@@ -386,10 +412,17 @@ header .row li a:hover,header .row li a:focus
     border-radius: 4px;
 }
 
+.videos .embed-video h2 a
+{
+    text-decoration: none;
+    color: #c4302b;
+    padding-bottom: 5px;
+}
+
 .videos .embed-video h2 a:hover
 {
     transition: all 0.3s ease-in;
-    color: rgb(255, 177, 74);
+    color: rgb(255, 202, 202);
 }
 
 .store .wide-box a
@@ -471,7 +504,7 @@ header .row li a:hover,header .row li a:focus
     border-radius: 4px;
 }
 
-.ld-inner-text-2
+.ld-inner-text-2, .ld-inner-text-3
 {
     display: block;
     text-align: center;
@@ -484,7 +517,7 @@ header .row li a:hover,header .row li a:focus
     height: 100px;
 }
 
-.ld-inner-text-2 p, .ld-inner-text-2 h4
+.ld-inner-text-2 p, .ld-inner-text-2 h4, .ld-inner-text-3 p, .ld-inner-text-3 h4
 {
     padding-top: 25px;
 }
@@ -495,7 +528,7 @@ header .row li a:hover,header .row li a:focus
     box-shadow: 0 0 10px #eee;
 }
 
-.ld-inner-text-2 h4
+.ld-inner-text-2 h4, .ld-inner-text-3 h4
 {
     font-family: 'Alconica';
     margin: 0 10px 0 10px;
@@ -505,6 +538,12 @@ header .row li a:hover,header .row li a:focus
 
 .ld-inner-text-2 a
 {
+    color: #c4302b;
+    margin: 0 10px 0 10px;
+}
+
+.ld-inner-text-3 a
+{
     color: white;
     margin: 0 10px 0 10px;
 }
@@ -512,5 +551,11 @@ header .row li a:hover,header .row li a:focus
 .ld-inner-text-2 a:hover
 {
     transition: all 0.2s ease-in;
-    color: rgb(255, 177, 74);
+    color: rgb(248, 116, 116);
+}
+
+.ld-inner-text-3 a:hover
+{
+    transition: all 0.2s ease-in;
+    color: rgb(243, 146, 19);
 }
