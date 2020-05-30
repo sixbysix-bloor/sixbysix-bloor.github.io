@@ -96,18 +96,13 @@ header .row li a:hover,header .row li a:focus
 
 .carousel-item section
 {
-    /* position: relative; */
-    /* padding: 345px 0px; */
     text-align: center;
-    /* overflow-y: scroll; */
-    /* position: fixed; */
 }
 
 .photos
 {
     height: 100%;
     left: 20%;
-    /* overflow-y: scroll; */
 }
 
 .gallery-container
