@@ -473,6 +473,11 @@ header .row li a:hover,header .row li a:focus
     left: 21%;
 }
 
+.store .wide-box
+{
+    margin-top: 10px;
+}
+
 .store .wide-box a
 {
     color: rgb(255, 177, 74);
