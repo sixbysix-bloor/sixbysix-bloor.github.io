@@ -18,6 +18,13 @@ header
     color: white;
 }
 
+.secondary
+{
+    background: rgb(85, 21, 21);
+    transition: all 0.2s ease-in;
+    border-bottom: 2px solid white;
+}
+
 header li
 {
     display: inline-block;
@@ -72,10 +79,7 @@ header .row li a:hover,header .row li a:focus
 
 .carousel-inner
 {
-    /* new change in test */
     height: 100%;
-    /* position: fixed; */
-    /* position: relative; */
     width: 100%;
     color: white;
     text-align: center;
