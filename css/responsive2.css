@@ -1,0 +1,121 @@
+@media screen and (max-height: 800px)
+{
+    header h1
+    {
+        text-align: center;
+        margin-top: 20px;
+        height: 60px;
+        font-size: 60px;
+        font-family: 'Alconica';
+        color: #eee;
+    }
+
+    header .row
+    {
+        text-align: center;
+        line-height: 60px;
+        font-size: 18px;
+    }
+
+    .header-line
+    {
+        width: 80px;
+        border-bottom: 1px solid white;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .header-buffer
+    {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1500px)
+{
+    .music
+    {
+        /* left: 50%; */
+    }
+
+    .music .square-image-music
+    {
+        padding: 0px;
+    }
+
+    .music img
+    {
+        height: 250px;
+        width: 250px;
+        border: 1px solid white;
+        z-index: 1;
+    }
+
+    .music .row .row
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .inner-text
+    {
+        position: absolute;
+        background: rgb(241, 241, 241);
+        width: 250px;
+        color: black;
+        text-align: left;
+        float: left;
+        transition: all 0.2s ease-in;
+        -webkit-box-shadow: 0 0 10px #eee;
+        box-shadow: 0 0 10px #eee;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-left: 13px;
+    }
+
+    .inner-text h4, .inner-text h6
+    {
+        font-family: 'Alconica';
+        font-size: 20px;
+    }
+    
+    .inner-text p
+    {
+        font-family: 'Alconica';
+        color: black;
+        font-size: 18px;
+    }
+
+    .ld .ld-title
+    {
+        height: 65px;
+        width: auto;
+        float: left;
+        margin-left: 15px;
+    }
+
+    .ld .container
+    {
+        width: 70%;
+    }
+
+    .ld .ld-square-image img
+    {
+        height: 250px;
+        width: 250px;
+        border: 1px solid white;
+    }
+
+    .ld-inner-text-2, .ld-inner-text-3
+    {
+        display: block;
+        text-align: center;
+        background-color: rgba(34, 26, 16, 0.5);
+        -webkit-box-shadow: 0 0 10px #eee;
+        box-shadow: 0 0 5px #eee;
+        border-radius: 4px;
+        margin: 15px 0 15px 11px;
+        width: 250px;
+        height: 100px;
+    }
+}
