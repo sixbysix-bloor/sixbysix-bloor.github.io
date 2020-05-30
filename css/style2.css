@@ -11,7 +11,7 @@
 
 header
 {
-    height: 112px;
+    /* height: 300px; */
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -21,7 +21,6 @@ header
 header li
 {
     display: inline-block;
-    /* background: green; */
     list-style: none;
 }
 
@@ -32,7 +31,6 @@ header h1
     height: 95px;
     font-size: 72px;
     font-family: 'Alconica';
-    /* font-family: 'Metamorphous'; */
     color: #eee;
 }
 
@@ -74,10 +72,18 @@ header .row li a:hover,header .row li a:focus
 
 .carousel-inner
 {
+    /* new change in test */
     height: 100%;
+    /* position: fixed; */
+    /* position: relative; */
     width: 100%;
     color: white;
     text-align: center;
+}
+
+.header-buffer
+{
+    height: 300px;
 }
 
 .slider, .slider .carousel-item
@@ -90,15 +96,24 @@ header .row li a:hover,header .row li a:focus
 
 .carousel-item section
 {
-    position: relative;
-    padding: 345px 0px;
+    /* position: relative; */
+    /* padding: 345px 0px; */
     text-align: center;
+    /* overflow-y: scroll; */
+    /* position: fixed; */
+}
+
+.photos
+{
+    height: 100%;
+    left: 20%;
+    /* overflow-y: scroll; */
 }
 
 .gallery-container
 {
     width: 100%;
-    margin-top: -65px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -167,12 +182,26 @@ header .row li a:hover,header .row li a:focus
     transition: all 0.3s ease 0s;
 }
 
+.news
+{
+    height: 100%;
+    left: 20%;
+    /* overflow-y: scroll; */
+}
+
 .news img
 {
     height: 300px;
     width: 300px;
     border: 1px solid white;
     z-index: 1;
+}
+
+.shows
+{
+    height: 100%;
+    left: 29%;
+    /* overflow-y: scroll; */
 }
 
 .shows .row .row
@@ -232,6 +261,12 @@ header .row li a:hover,header .row li a:focus
     text-align: center;
 }
 
+.bios
+{
+    height: 100%;
+    left: 22%;
+}
+
 .bios li
 {
     list-style: none;
@@ -239,7 +274,7 @@ header .row li a:hover,header .row li a:focus
 
 .bios .outer-row
 {
-    margin-top: -40px;
+    /* margin-top: 0px; */
 }
 
 .bios .band-bio
@@ -280,9 +315,11 @@ header .row li a:hover,header .row li a:focus
     text-decoration: none;
 }
 
-.music .container
+.music
 {
-    margin-top: -30px;
+    height: 100%;
+    left: 24%;
+    /* overflow-y: scroll; */
 }
 
 .music img
@@ -357,6 +394,12 @@ header .row li a:hover,header .row li a:focus
     transition: all 0.3s ease 0s;
 }
 
+.videos
+{
+    height: 100%;
+    left: 27%;
+}
+
 .videos .link-list ul li
 {
     list-style: none;
@@ -425,6 +468,12 @@ header .row li a:hover,header .row li a:focus
     color: rgb(255, 202, 202);
 }
 
+.store
+{
+    height: 100%;
+    left: 21%;
+}
+
 .store .wide-box a
 {
     color: rgb(255, 177, 74);
@@ -453,6 +502,12 @@ header .row li a:hover,header .row li a:focus
     font-size: 20;
 }
 
+.ld
+{
+    height: 100%;
+    left: 22%;
+}
+
 /* LD */
 .ld .row
 {
@@ -464,7 +519,7 @@ header .row li a:hover,header .row li a:focus
     height: 100px;
     width: auto;
     float: left;
-    margin: -50px 0 0 0;
+    /* margin: -50px 0 0 0; */
 }
 
 .ld .title-row
