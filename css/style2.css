@@ -11,7 +11,6 @@
 
 header
 {
-    /* height: 300px; */
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -79,7 +78,6 @@ header .row li a:hover,header .row li a:focus
 
 .carousel-inner
 {
-    height: 100%;
     width: 100%;
     color: white;
     text-align: center;
@@ -101,6 +99,7 @@ header .row li a:hover,header .row li a:focus
 .carousel-item section
 {
     text-align: center;
+    overflow-y: scroll;
 }
 
 .photos
@@ -269,11 +268,6 @@ header .row li a:hover,header .row li a:focus
 .bios li
 {
     list-style: none;
-}
-
-.bios .outer-row
-{
-    /* margin-top: 0px; */
 }
 
 .bios .band-bio
