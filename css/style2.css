@@ -78,9 +78,12 @@ header .row li a:hover,header .row li a:focus
 
 .carousel-inner
 {
+    /* height: 100%; */
+    height: 1200px;
     width: 100%;
     color: white;
     text-align: center;
+    /* overflow: visible; NOTE: This would fix the problem, but isn't allowed by carousel */ 
 }
 
 .header-buffer
@@ -90,16 +93,18 @@ header .row li a:hover,header .row li a:focus
 
 .slider, .slider .carousel-item
 {
-    height: auto;
+    /* height: auto; */
     width: auto;
     color: white;
     text-align: center;
+    position: sticky;
 }
 
 .carousel-item section
 {
     text-align: center;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    overflow-y: visible;
 }
 
 .photos

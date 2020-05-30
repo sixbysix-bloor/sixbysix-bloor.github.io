@@ -29,6 +29,11 @@
     {
         height: 200px;
     }
+
+    .carousel-inner
+    {
+        height: 800px;
+    }
 }
 
 @media screen and (max-width: 1500px)
