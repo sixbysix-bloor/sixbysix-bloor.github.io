@@ -24,10 +24,10 @@ header
     border-bottom: 2px solid white;
 }
 
-header li
+header ul li
 {
     display: inline-block;
-    list-style: none;
+    text-align: center;
 }
 
 header h1
@@ -47,15 +47,15 @@ header .row
     font-size: 20px;
 }
 
-header .row li a
+header .row ul li a
 {
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #eee;
     transition: all 0.3s ease-in;
-    text-decoration: none;
 }
 
-header .row li a:hover,header .row li a:focus
+header .row ul li a:hover,header .row ul li a:focus
 {
     text-decoration: none;
     color: #F2AF58;
@@ -73,7 +73,7 @@ header .row li a:hover,header .row li a:focus
     width: 120px;
     border-bottom: 2px solid white;
     margin: 0 auto;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .carousel-inner
