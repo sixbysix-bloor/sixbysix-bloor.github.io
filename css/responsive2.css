@@ -36,6 +36,82 @@
     }
 }
 
+@media screen and (max-height: 1000px)
+{
+    header h1
+    {
+        text-align: center;
+        margin-top: 20px;
+        height: 60px;
+        font-size: 60px;
+        font-family: 'Alconica';
+        color: #eee;
+    }
+
+    header .row
+    {
+        text-align: center;
+        line-height: 60px;
+        font-size: 18px;
+    }
+
+    .header-line
+    {
+        width: 80px;
+        border-bottom: 1px solid white;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .header-buffer
+    {
+        height: 200px;
+    }
+
+    .carousel-inner
+    {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-height: 1100px)
+{
+    header h1
+    {
+        text-align: center;
+        margin-top: 20px;
+        height: 60px;
+        font-size: 60px;
+        font-family: 'Alconica';
+        color: #eee;
+    }
+
+    header .row
+    {
+        text-align: center;
+        line-height: 60px;
+        font-size: 18px;
+    }
+
+    .header-line
+    {
+        width: 80px;
+        border-bottom: 1px solid white;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .header-buffer
+    {
+        height: 200px;
+    }
+
+    .carousel-inner
+    {
+        height: 1100px;
+    }
+}
+
 @media screen and (max-width: 1500px)
 {
     .music
