@@ -439,6 +439,16 @@ header .row ul li a:hover,header .row ul li a:focus
     color: rgb(243, 146, 19);
 }
 
+.videos .invite-click h4
+{
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    text-decoration: none;
+    color: #eee;
+    padding-bottom: 5px;
+}
+
 .videos .embed-video h2
 {
     justify-content: center;
