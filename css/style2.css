@@ -324,6 +324,7 @@ header .row ul li a:hover,header .row ul li a:focus
     height: 300px;
     width: 300px;
     border: 1px solid white;
+    border: 2px solid rgb(212, 212, 212);
     z-index: 1;
 }
 
@@ -336,7 +337,8 @@ header .row ul li a:hover,header .row ul li a:focus
 
 .music .square-image-music
 {
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow: visible;
     position: relative;
     float: left;
 }
