@@ -638,3 +638,14 @@ header .row ul li a:hover,header .row ul li a:focus
     color: rgb(248, 116, 116);
     transition: all 0.3s ease 0s;
 }
+
+#contactInfo
+{
+    z-index: 200;
+    position: fixed;
+    color: #eee;
+    text-align: right;
+    top: 2%;
+    right: 2%;
+    /* width: 100px; */
+}
