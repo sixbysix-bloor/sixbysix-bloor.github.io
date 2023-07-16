@@ -146,6 +146,7 @@ header .row ul li a:hover,header .row ul li a:focus
     background-color: #bbb;
     color: black;
     border: 1px solid white;
+    height: 300px;
 }
 
 .seven-three-text h5
