@@ -629,6 +629,11 @@ header .row ul li a:hover,header .row ul li a:focus
     color: rgb(243, 146, 19);
 }
 
+#new-ep
+{
+    color:rgb(128, 32, 32);
+}
+
 #new-single
 {
     color:rgb(128, 32, 32);
