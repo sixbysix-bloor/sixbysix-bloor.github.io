@@ -65,7 +65,10 @@ header .row ul li a:hover,header .row ul li a:focus
 {
     background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url(..//images/Wood-Grain-3.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .header-line
